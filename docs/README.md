@@ -1,4 +1,4 @@
-# 前端基础目录
+# Kendall_基础大纲
 
 - **[JavaScript基础](./JavaScript基础/JS中的变量和类型.md)**
 

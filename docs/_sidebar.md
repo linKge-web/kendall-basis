@@ -4,6 +4,7 @@
   * [JS中的变量与类型](/JavaScript基础/JS中的变量和类型.md)
   * [ES6let,const与块作用域](/JavaScript基础/ES6let,const与块作用域.md)
   * [ES6常用的新特性总结](/JavaScript基础/ES6常用的新特性总结.md)
+  * [JavaScript中的执行上下文](/JavaScript基础/JavaScript中的执行上下文.md)
 
 * 数据结构学习
   * [01.栈](/数据结构学习/01.栈.md)

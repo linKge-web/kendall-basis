@@ -6,6 +6,9 @@
   * [ES6常用的新特性总结](/JavaScript基础/ES6常用的新特性总结.md)
   * [JavaScript中的执行上下文](/JavaScript基础/JavaScript中的执行上下文.md)
 
+* Vue
+  * [v-mode原理和使用](/Vue/v-model的原理和使用.md)
+
 * 数据结构学习
   * [01.栈](/数据结构学习/01.栈.md)
   * [02.队列](/数据结构学习/02.队列.md)

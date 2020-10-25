@@ -1,3 +1,4 @@
+# v-mode原理和使用
 
 `v-model`指令在表单`<input>`,`<textarea>`,`<select>`元素上创建双向绑定，它会根据控件类型自动选取正确的方法来更新元素。
 
@@ -152,4 +153,33 @@
 `v-model`绑定的是一个数组。
   * 当选中多个值时，就会将选中的`option`对应的`value`添加到数组`mySelects`中
 
-
+```vue
+  <div id="app">
+    <!-- 只能选一个 -->
+    <select v-model="mySelect">
+      <option value="苹果">苹果</option>
+      <option value="雪梨">雪梨</option>
+      <option value="香蕉">香蕉</option>
+    </select>
+    <h3>你选择的是：{{mySelect}}</h3>
+    <!-- 可以选多个 -->
+    <select v-model="mySelects" multiple>
+      <option value="苹果">苹果</option>
+      <option value="雪梨">雪梨</option>
+      <option value="香蕉">香蕉</option>
+    </select>
+    <h3>你选择的是：{{mySelects}}</h3>
+  </div>
+  
+  <script>
+    const obj = {
+      messages: 'hello vue',
+      mySelect: '苹果',
+      mySelects: []
+    }
+    const App = new Vue({
+      el:'#app',
+      data: obj,
+    })
+  </script>
+```

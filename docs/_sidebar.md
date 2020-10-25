@@ -5,6 +5,8 @@
   * [ES6let,const与块作用域](/JavaScript基础/ES6let,const与块作用域.md)
   * [ES6常用的新特性总结](/JavaScript基础/ES6常用的新特性总结.md)
   * [JavaScript中的执行上下文](/JavaScript基础/JavaScript中的执行上下文.md)
+  * [JS变量提升理解](/JavaScript基础/JS变量提升理解.md)
+  * [Symbol详解](/JavaScript基础/Symbol详解.md)
 
 * Vue
   * [v-mode原理和使用](/Vue/v-model的原理和使用.md)
